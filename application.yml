@@ -1,3 +1,3 @@
 token:
   expiration_time: 86400000 # 1 day
-  secret: this is a default secret from config service - busrefresh test
+  secret: '{cipher}AQCBBr4u4dPif55b0nVLn5fBHUoTSVPx7AZ6cFkUs6dwrnmGhm9cGzv9PqBAcASEgLXVFzA/+Oe//hEQ36//YlkgaF9z8HnHCcYQkwsQgfLqQg404dZ+J/hJ4a6VRzUnA8nFJP1x+0dIjrJuP/4kw+51JAfjy75qauz5XwisBBajqStckfjFyYtiXWJE0/ZeSkytnLibjmwJZL1zHm2AmGpwZJG/195PrMKfs0TCYW3049wKMb8qix3lGvkPmYJr3Zzen+YWDGwjoTnQN0GLY4m/O5T83V1kFw6UCbGrIRHa//H9A2MfXIyaxQAVtftVOEV5cSvMr3rXJSrsz9ejmYWMyBFvwbW1Vr18INiidavvjGPbexw/MtM/zTkbGErqxqFPxC7l4h2xjS9Dwfm7EpRUdCaBAHi4DQ+3GTnfFVVVz0Ab1DfKCTM7xCMzFQ0J68A='
