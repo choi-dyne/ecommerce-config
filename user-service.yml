@@ -7,4 +7,5 @@ spring:
     password: '{cipher}AQCRfy0cRw9YFTXvwhNj08PbMORgnXnZm5+EzWibicU3iHeJLujo6OrEwY4zA1aD91TrZhFik51HkrgouHAuQLohubjsJj4k3T1BFcn+c30+rQAqFOlBD8brxosbHIm6jnSwX+tqQfeCcFnp1zl4ZgcRr5DJpjVE9kHVaKBvmyPBk6AcHFou/KXFZ7BazopqI3h92JD+1WL81AS4FAFs/LnmGB7XNF3EB09sXhRvHXIomRLN9ygoR8m6tdrHl5YuM0qpDYe1r8NrbtzZTuBtxIsfL/O7aG0B4ICDalINvk4QX825qQ9jquuqpV3idH463L8UYBYidTT1kTpzKTbUbaSdkHzHokgisIwS5sZ5VfqqXNg4zJ/dqASPek6Gb/K4OZo='
 
 order-service:
-  url: http://localhost:8000/order-service/%s/orders
+  #url: http://localhost:8000/order-service/%s/orders #하드코딩
+  url: http://order-service/order-service/%s/orders #유레카에 등록된 서비스 이름을 사용하여 동적으로 주문 서비스 URL 생성
